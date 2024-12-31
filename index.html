@@ -172,10 +172,14 @@
                 <img data-src="photos/photo16.jpg">
             </section>
 
-            <section data-transition="convex-in concave-out"
-                data-background-image="https://c4.wallpaperflare.com/wallpaper/24/502/406/happy-birthday-hd-wallpaper-preview.jpg">
-                <video data-autoplay src="photos/birthday_video1.mp4">
-                </video>
+            <section data-transition="convex-in concave-out" data-background-video="photos/birthday_video1.mp4">
+                <!-- <video data-autoplay src="photos/birthday_video1.mp4">
+                </video> -->
+                <!-- <video preload="auto" controls autoplay>
+                    <source src="photos/birthday_video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+                <!-- <button id="play-button-1">Play</button> -->
             </section>
 
             <section
@@ -188,10 +192,14 @@
                 <img data-src="photos/photo18.jpg">
             </section>
 
-            <section data-transition="convex-in concave-out"
-                data-background-image="https://c4.wallpaperflare.com/wallpaper/24/502/406/happy-birthday-hd-wallpaper-preview.jpg">
-                <video data-autoplay src="photos/birthday_video2.mp4">
-                </video>
+            <section data-transition="convex-in concave-out" data-background-video="photos/birthday_video2.mp4">
+                <!-- <video data-autoplay src="photos/birthday_video2.mp4">
+                </video> -->
+                <!-- <video preload="auto" controls autoplay>
+                    <source src="photos/birthday_video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+                <!-- <button id="play-button-2">Play</button> -->
             </section>
 
             <section data-transition="convex-in concave-out"
@@ -316,6 +324,18 @@
             });
             Reveal.slide(0); // Start the presentation from the first slide
         });
+
+        // document.getElementById('play-button-1').addEventListener('click', function () {
+        //     const video = document.getElementById('video-1');
+        //     video.play();
+        //     this.style.display = 'none';  // Hide the play button after clicking
+        // });
+
+        // document.getElementById('play-button-2').addEventListener('click', function () {
+        //     const video = document.getElementById('video-2');
+        //     video.play();
+        //     this.style.display = 'none';  // Hide the play button after clicking
+        // });
     </script>
 </body>
 
